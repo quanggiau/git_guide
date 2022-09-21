@@ -21,6 +21,7 @@ guide to use github
 	**git fetch origin ....**  
 	git checkout ...  
 	git branch  
+	
 (4) 開発用のブランチを作成する  
 	git checkout -b feature/#チェケっと番号  
 	git branch  
@@ -31,22 +32,45 @@ guide to use github
 	**git push origin feature/#branch**  
 	
 (6)
+==========================================================
+機能ファイル横成　（SQLあり）
+|--conf
+|  |--[aaa].conf.pr 
+|  |--[機能」.conf.test
+|--data
+|  |--
+|  |--
+|
+|--logs
+|
+|
+|
+|--sql
 
-(7)
+========================================================
+# エラーコードー覧　　
 
-(8)
-
-(9)
-
-(10)
-
-(11)
-
-(12)
-
-(13)
+ステータス　　	種別　　		意味　　
+0			正常終了		正常終了　　
+101			異常終了		環境ファイル読み込み失敗
+102			異常終了		引数。。。
+103			異常終了		
+104			異常終了		
+105			異常終了		
+106			異常終了		EXECUTE_SQL...
+107			異常終了		EXECUTE_SQL実行エラー
+108			異常終了		
+109			異常終了		
+110			異常終了		
+120			異常終了		Pytｈon　CSV 出力例外  
+121			異常終了		Python 引数。。。
+122			異常終了		Python　Platform参照失敗  
+123			異常終了		Python　設定ファイル参照失敗  
+124			異常終了		Python　設定項目取得失敗  
 
 note: *https://gsviec.com/huong-dan-su-dung-markdown/*  
+
+space space (two time) to enter
 
 # Tiêu đề 1 (h1)  
 ## Tiêu đề 2 (h2)  
