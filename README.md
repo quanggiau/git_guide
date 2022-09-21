@@ -1,7 +1,7 @@
-# git_guide
-リポジトリ操作手順　　
-Gitlabを使って開発手順例を下記に記します。
-guide to use github
+# git_guide  
+リポジトリ操作手順  
+Gitlabを使って開発手順例を下記に記します。  
+guide to use github  
 
 (1)	作業用のディレクトリを作成する  
 	mkdir　*folder_name*  
