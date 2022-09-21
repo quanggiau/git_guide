@@ -4,10 +4,10 @@ Gitlabを使って開発手順例を下記に記します。
 guide to use github  
 
 (1)	作業用のディレクトリを作成する  
-	mkdir　*folder_name*  
+	mkdir *folder_name*  
 	
 (2)	GitリポジトリCloneする  
-	＄　ｃｄ　*folder_name*    
+	$ ｃｄ *folder_name*    
 	git clone *https://github.com/quanggiau/git_guide.git*   
 		*User name* for  
 		*Password* for  
@@ -21,14 +21,15 @@ guide to use github
 	**git fetch origin ....**  
 	git checkout ...  
 	git branch  
-(4) 開発用のブランチを作成する　　
+(4) 開発用のブランチを作成する  
 	git checkout -b feature/#チェケっと番号  
 	git branch  
 	
-(5) プログラム開発する、作成・修正したファイルをcommitする
+(5) プログラム開発する、作成・修正したファイルをcommitする  
 	git add .  
 	git commit -m " 対応内容のコメント"  
 	**git push origin feature/#branch**  
+	
 (6)
 
 (7)
@@ -46,3 +47,23 @@ guide to use github
 (13)
 
 note: *https://gsviec.com/huong-dan-su-dung-markdown/*  
+
+# Tiêu đề 1 (h1)  
+## Tiêu đề 2 (h2)  
+### Tiêu đề 3 (h3)  
+**In đậm** hoặc __In đậm__ (&lt;b&gt;)  
+*In nghiêng* hoặc _In nghiêng_ (&lt;i&gt;)  
+~~Chữ gạch ngang~~ (&lt;strike&gt; or &lt;del&gt; or &lt;s&gt;)  
+1. danh sách 1  
+2. danh sách 2  
+3. danh sách 3  
+![Tên link](đường dẫn) (&lt;a&gt;)  
+![Tên link với chú thích](đường dẫn "chú thích") (&lt;a name="chú thích"&gt;)  
+http://example.com  
+![](đường dẫn) (&lt;img /&gt;)  
+![](đường dẫn "title") (&lt;img alt="title"/&gt;)  
+> câu trích dẫn  
+Chú thích[^1] chú thích[^2].  
+
+- [^1]: chú thích 1  
+- [^2]: chú thích 2  
