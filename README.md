@@ -31,7 +31,9 @@ guide to use github
 	git commit -m " 対応内容のコメント"  
 	**git push origin feature/#branch**  
 	
-(6)
+(6) config email	
+	git connfig --global user.email	
+	ex: git config --global user.email "br-.email"	
 ==========================================================
 機能ファイル横成　（SQLあり）  
 |--conf  
