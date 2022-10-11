@@ -13,14 +13,25 @@ guide to use github
 		*Password* for  
 	
 (3)	ブランチcheckoutする: 管理者が作成するはずをcheckout
+	(*) To see all branch in reposetory
+	(*) If done see, use git fetch to resolt
 	git branch -r  
 		*origin/Head*  
-		*origin/master*  
-	git fetch  
+		*origin/master* 
+		*origin/develop_* 
+		*origin/.....* 		
+	git fetch    // kiểm tra dữ liệu có khác không
 	git branch -r  
-	**git fetch origin ....**  
+	**git fetch origin ....**    
 	git checkout ...  
-	git branch  
+	git branch      // đẩy dữ liệu từ đám mây (origin) về HEAD (local)
+(*) git branch 
+	-> display only branch of local.
+	
+	[] git fetch origin develop_main    // 1_to take brach -- fetch dữ liệu ở origin (kiểm tra có khác nhau)
+	[] git checkout develop_main        // 1_to take brach
+	[] git branch
+	* develop_main
 	
 (4) 開発用のブランチを作成する  
 	git checkout -b feature/#チェケっと番号  
