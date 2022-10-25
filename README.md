@@ -14,7 +14,7 @@ guide to use github
 	
 (3)	ブランチcheckoutする: 管理者が作成するはずをcheckout
 	(*) To see all branch in reposetory
-	(*) If done see, use git fetch to resolt
+														// (*) If done see, use git fetch to resolt
 	git branch -r  
 		*origin/Head*  
 		*origin/master* 
@@ -24,14 +24,19 @@ guide to use github
 	git branch -r  
 	**git fetch origin ....**    
 	git checkout ...  
-	git branch      // đẩy dữ liệu từ đám mây (origin) về HEAD (local)
-(*) git branch 
-	-> display only branch of local.
+	git branch      									// đẩy dữ liệu từ đám mây (origin) về HEAD (local)
+
+NEW 25/10/2022	
+(*) git branch  -> display only branch of local.
 	
-	[] git fetch origin develop_main    // 1_to take brach -- fetch dữ liệu ở origin (kiểm tra có khác nhau)
-	[] git checkout develop_main        // 1_to take brach
+	[] git checkout develop_main        // to take another brach on origin (chua cos o local-head) ve HEAD-local, ko can orign/...
+	[] git fetch 						// kiem tra su thay doi
 	[] git branch
+	
 	* develop_main
+	* master
+	
+	## comment[] git fetch origin develop_main    // 1_to take brach -- fetch dữ liệu ở origin (kiểm tra có khác nhau)
 	
 (4) 開発用のブランチを作成する  
 	git checkout -b feature/#チェケっと番号  
@@ -45,6 +50,9 @@ guide to use github
 (6) config email	
 	git connfig --global user.email	
 	ex: git config --global user.email "br-.email"	
+	
+(7) git push origin feature/feature/# (ko can chu origin)
+    if the first, create the branch 
 ==========================================================
 機能ファイル横成　（SQLあり）  
 |--conf  
