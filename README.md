@@ -53,6 +53,18 @@ NEW 25/10/2022
 	
 (7) git push origin feature/feature/# (ko can chu origin)
     if the first, create the branch 
+	
+(8) git config email (unstable)
+	git config user.email
+
+(9) delete file
+	use git rm 
+	git commmit -m" "
+	git push
+
+(10) remove file
+	git rm *.swp
+	rm *.swp (if madda commit)
 ==========================================================
 機能ファイル横成　（SQLあり）  
 |--conf  
