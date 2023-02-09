@@ -26,8 +26,8 @@ guide to use github
 	git checkout ...  
 	git branch      									// đẩy dữ liệu từ đám mây (origin) về HEAD (local)
 
-NEW 25/10/2022	
-(*) git branch  -> display only branch of local.
+NEW 30/01/2023	
+(*) git branch  -> display only branch of local. (đã checkout, đã pull về)
 	
 	[] git checkout develop_main        // to take another brach on origin (chua cos o local-head) ve HEAD-local, ko can orign/...
 	[] git fetch 						// kiem tra su thay doi
@@ -36,7 +36,12 @@ NEW 25/10/2022
 	* develop_main
 	* master
 	
-	## comment[] git fetch origin develop_main    // 1_to take brach -- fetch dữ liệu ở origin (kiểm tra có khác nhau)
+NEW 30/01/2023	
+	# important: before create new branch
+	(*) 1.git fetch origin develop  (origin/develop)
+		2. git checkout develop (to checkout, pull branch develop)
+	
+	// 1_to take brach -- fetch dữ liệu ở origin (kiểm tra có khác nhau)
 	
 (4) 開発用のブランチを作成する  
 	git checkout -b feature/#チェケっと番号  
@@ -49,10 +54,13 @@ NEW 25/10/2022
 	
 (6) config email	
 	git connfig --global user.email	
-	ex: git config --global user.email "br-.email"	
+	ex: git config --global user.email "br-....email"	
 	
-(7) git push origin feature/feature/# (ko can chu origin)
+(7) git push origin feature/#
     if the first, create the branch 
+    
+(8)delete branch
+ git branch -d branch_name
 ==========================================================
 機能ファイル横成　（SQLあり）  
 |--conf  
