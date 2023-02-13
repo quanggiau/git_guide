@@ -39,3 +39,14 @@ feature/#456
 (nhanh git tren HEAD/ local)
 ....
 ** ok 2022-11-21
+#20230213
+6. 
+git add 
+git commit -m "content 1"
+git add file 2
+git commit -m "content 2"
+...
+git push
+7. git set 
+git config  user.email
+git config  user.email "abc@gmail.com"
