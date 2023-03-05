@@ -21,3 +21,13 @@ origin/feature/#156
 origin/feature/#157
 origin/feature/#158
 origin/master --(??)
+
+** Begin
+-- create a new repository
+git clone http://git_hicejdfdh/avodfd/repot.git
+cd folder_name
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main
+-- ..... MORE
