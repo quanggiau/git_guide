@@ -58,11 +58,9 @@ NEW 30/01/2023
 	
 (7) git push origin feature/#
     if the first, create the branch 
-<<<<<<< HEAD
     
 (8)delete branch
  git branch -d branch_name
-=======
 	
 (8) git config email (unstable)
 	git config user.email
@@ -75,7 +73,6 @@ NEW 30/01/2023
 (10) remove file
 	git rm *.swp
 	rm *.swp (if madda commit)
->>>>>>> 4db1895827dd7df941176cf6e419fb69d0e238e7
 ==========================================================
 機能ファイル横成　（SQLあり）  
 |--conf  
