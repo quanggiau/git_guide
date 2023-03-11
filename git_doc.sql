@@ -1,12 +1,14 @@
 -- craete: 20230305
-1. git fetch
+1. git fetch  
 -- to update branch hace on remote (origin)
 -- remote: Enumer object count: 100 done
 -- remote: 
 -- remote:
 http:////avo_data.audine_list
-[new branch]    feature/#155 -> origin/feature/#155
-[new branch]    feature/#158 -> origin/feature/#158
+5dsaf5d5fdfdse    develop     -> origin/develop
+*[new branch]    feature/#158 -> origin/feature/#158
+*[new branch]    feature/#155 -> origin/feature/#155
+*[new branch]    feature/#485 -> origin/feature/#485
 =? git pull to update
 
 2/ git branch -r 
