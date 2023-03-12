@@ -24,6 +24,14 @@ origin/feature/#157
 origin/feature/#158
 origin/master --(??)
 
+2.1/ git branch
+develop
+* feature/#154
+  feature/#155
+  feature/#156
+  feature/#157
+  origin/master
+  
 ** Begin
 -- create a new repository
 git clone http://git_hicejdfdh/avodfd/repot.git
