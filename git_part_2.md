@@ -50,3 +50,12 @@ git push
 7. git set 
 git config  user.email
 git config  user.email "abc@gmail.com"
+
+-------
+git fetch origin = git fetch --all
+
+git log --oneline master
+git status
+---
+git pull origin master
+git merge origin/master (cap nhat data sau khi lay ve tu fetch)
