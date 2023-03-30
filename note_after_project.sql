@@ -34,3 +34,16 @@ if obj.key.....
 aws s3 rm s3://muckert/ -- recursive -- exclude "*.jpg"
 aws s3 rm s3://aws:s3:......../file_name
 $ cat file_name | wc -l
+=======
+- MS ?øΩS?øΩV?øΩb?øΩN, 
+- Meiryo UI: font size 11, 85 %
+2. export long
+- xuat log theo yeu cau
+- xuat them " traceback.format_exc()"
+3. code
+shell: kh√¥ng ƒë·ª? kho·∫£ng tr·∫Øng gi·ªØa 2 d√≤ng
+(n·∫øu c√≥ d√≥ l√? comment)
+4. python
+before run: active env
+after rung: deactive env
+4.1 import env
