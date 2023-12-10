@@ -59,3 +59,22 @@ git status
 ---
 git pull origin master
 git merge origin/master (cap nhat data sau khi lay ve tu fetch)
+
+-- take information user.name, user.email
+-> git config user.name
+	--> quanggiau
+-> git config user.email
+	-->lq_giau@brycen.com.vn
+
+Trong Git, "name" thường đề cập đến tên của người dùng, ví dụ, tên mà bạn sử dụng khi thực hiện commit.
+Đối với cấu hình Git, thông tin tên này có thể được thiết lập bằng lệnh:
+
+->git config user.name "Your Name"
+
+"Email" là địa chỉ email của người dùng, thường được sử dụng để định danh một người dùng duy nhất trong quá trình commit.
+Đối với cấu hình Git, thông tin email này có thể được thiết lập bằng lệnh:
+
+-> git config user.email "your.email@example.com"
+Khi bạn thực hiện một commit trong Git, thông tin này được gắn liền với commit đó, giúp xác định ai đã thực hiện commit đó.
+
+Tóm lại, "name" và "email" trong Git thường là thông tin định danh người dùng và có thể được thiết lập trong cấu hình Git để giữ thông tin này đồng nhất trên các commit của một người dùng cụ thể.
