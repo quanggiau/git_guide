@@ -7,27 +7,29 @@ guide to use github
 	mkdir *folder_name*  
 	
 (2)	GitリポジトリCloneする  
-	$ ｃｄ *folder_name*    
+	$ cd *folder_name*    
 	git clone *https://github.com/quanggiau/git_guide.git*   
 		*User name* for  
 		*Password* for  
 	
-(3)	ブランチcheckoutする: 管理者が作成するはずをcheckout
+(3)	ブランチcheckoutする: 管理者が作成するはずをcheckout  
 	(*) To see all branch in reposetory  
-														// (*) If done see, use git fetch to resolt
-	git branch -r  // display all branch in remote
+														// (*) If done see, use git fetch to result  
+	git branch -r  // display all branch in remote  
 		*origin/Head*  
-		*origin/master* 
-		*origin/develop_* 
-		*origin/.....* 		
-	git fetch    // kiểm tra dữ liệu có khác không
+		*origin/master*  
+		*origin/develop_*  
+		*origin/.....*  
+	git fetch    // kiểm tra dữ liệu có khác không  
 	git branch -r  
-	** To take fetch branch from remote to repository.
-	**git fetch origin ....**    
-		**git fetch origin branch_name....**    
+	** To take fetch branch from remote to repository.  
+	**git fetch origin ....**  
+		**git fetch origin branch_name....**  
 		
-	git checkout ...  
-	git branch      									// đẩy dữ liệu từ đám mây (origin) về HEAD (local)
+	git checkout   
+	git branch      							// đẩy dữ liệu từ đám mây (origin) về HEAD (local), branch on local
+	git branch -r  								// r: remote, branch on remote
+	git fetch origin feature
 
 NEW 30/01/2023	
 (*) git branch  -> display only branch of local. (đã checkout, đã pull về)
