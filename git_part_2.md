@@ -18,7 +18,7 @@ origin/feature/#456
 origin/master
 ...
 
-2. git fetch origin feature/#123   --> check out a branch [[git fetch origin feature....]]
+2. git fetch origin feature/#123   --> check out a branch [[git fetch origin feature....]] ??? ??????
 username:....
 password:....
 
@@ -32,14 +32,12 @@ password:....
 4. git branch (all branch in local)
 feature/#123
 feature/#456
-....
-(ko con chu origin nua)
+
 
 5. git branch
 (nhanh git tren HEAD/ local)
 ....
-** ok 2022-11-21
-#20230213
+
 6. 
 git add 
 git commit -m "content 1"

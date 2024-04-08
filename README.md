@@ -21,7 +21,7 @@ guide to use github
 		*origin/develop_*  
 		*origin/.....*  
 	git fetch    // kiểm tra dữ liệu có khác không  
-	git branch -r  
+
 	** To take fetch branch from remote to repository.  
 	**git fetch origin ....**  
 		**git fetch origin branch_name....**  

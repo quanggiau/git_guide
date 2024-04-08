@@ -32,6 +32,10 @@ develop
   feature/#157
   origin/master
   
+2.2/ git fetch origin branch_on_remote
+
+2.3/ checkout ??
+  
 ** Begin
 -- create a new repository
 git clone http://git_hicejdfdh/avodfd/repot.git
